@@ -1,0 +1,49 @@
+footer {
+  width: 100%;
+  float: left;
+  min-height: 235px;
+  background-color: #171f23;
+  padding-top: 50px;
+  .footer-content {
+    position: relative;
+    padding-top: 55px;
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    .f-logo {
+      position: absolute;
+      display: block;
+      width: 30px;
+      height: 45px;
+      top:0;
+      left: 50%;
+      margin-left: -15px;
+      background: url("../images/logo.png") no-repeat center;
+      cursor: pointer;
+    }
+    h3 {
+      font-family: $Oswald;
+      font-size: 24px;
+      font-weight: 400;
+      margin-bottom: 5px;
+    }
+    p {
+      font-family: $Roboto;
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+    li {
+      display: inline-block;
+      margin: 0 3px;
+    }
+    a {
+      color: $white;
+      font-size: 16px;
+      font-weight: 400;
+      opacity: .8;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
